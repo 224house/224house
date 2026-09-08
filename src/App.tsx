@@ -1,4 +1,5 @@
 import { useScrollTheme, type ThemeStop } from './hooks/useScrollTheme'
+import CustomCursor from './components/CustomCursor'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Services from './components/Services'
@@ -30,6 +31,8 @@ function App() {
         className="fixed inset-0 -z-10"
         style={{ backgroundColor: bg, transition: 'background-color 80ms linear' }}
       />
+
+      <CustomCursor color={fg} />
 
       <Nav fg={fg} />
 

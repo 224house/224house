@@ -29,6 +29,14 @@ body {
   color: #ffffff;
 }
 
+@media (pointer: fine) {
+  body,
+  a,
+  button {
+    cursor: none;
+  }
+}
+
 .font-display {
   font-family: var(--font-display);
 }
